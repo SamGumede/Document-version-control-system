@@ -1,4 +1,4 @@
-<?php
+ <?php
 if (isset($_POST["submit"])) {
     include_once 'DBConnect.php';
     
@@ -149,6 +149,14 @@ if (isset($_POST["submit"])) {
             </div>
     
     </div>
+
+  <div class="container">
+  <div class="jumbotron">
+
+
+    
+          </div>
+            </div>
 
 
 

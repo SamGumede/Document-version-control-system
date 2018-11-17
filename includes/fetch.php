@@ -9,22 +9,41 @@
 <body>
     <br>
     <div class="container page-header">
-    <h1 class="text-center"><span class="blanc">List of All Files</span></h1> 
+    <h1 class="text-center"><span class="blanc">Documents and files list</span></h1> 
 </div>
 <div class="container">
-    <a href="../home.php" class="btn btn-info btn-lg" role="button">Home</a>
-    <a href="../uploadhtml.php" class="btn btn-info btn-lg float-right" role="button">Go back</a>
-    <a href="../searchhtml.php" class="btn btn-danger btn-lg float-right" role="button">Search files</a>     
+
+ 
+   
+ -->
+<a class="btn btn-primary btn-lg float-left" href="../home.php">
+<i class="fa fa-home fa-5x"></i>Home</a>
+
+    <!--  -->
+    <a class="btn btn-primary btn-lg float-right" href="../uploadhtml.php">
+<i class="fa fa-home fa-5x"></i>Back</a>
+
+
+    <a class="btn   btn-primary btn-lg float-right font-weight-bold" href="../searchhtml.php">
+<i class="fa fa-home fa-5x"></i>Search</a>
+
+
+  
+
+    
+
   </div>
 <br>
     <div class="container">
-        <table class="table table-bordered table-dark table-hover">
-            <thead class="bg-danger">
+        <table class="table table-bordered thead-dark">
+            <thead class="bg-thead-ligh">
                 <tr>
-                    <th class="text-center">ID</th>
-                    <th class="text-center">Keywords / Document type</th>
+                    <th class="text-center">File number</th>
+                    <th class="text-center">Category</th>
                     <th class="text-center">Author</th>
                     <th class="text-center">File Name</th>
+                    <th class="text-center">File Name</th>
+
                     <th></th>
                 </tr>
             </thead>
